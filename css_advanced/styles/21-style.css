@@ -1,0 +1,13 @@
+/* styles/21-style.css */
+
+/* Select all classes that start with col- */
+[class^="col-"] {
+    float: left;
+    padding: calc(var(--root-element-padding) / 2);
+}
+
+/* Remove references to common properties for individual classes */
+.col-1-3,
+.col-1-2 {
+    /* Specify unique styles here */
+}
